@@ -127,4 +127,4 @@ app.get("/about", function (req, res) {
   res.render("about");
 });
 
-app.listen(PORT, () => console.log("Server listening on Port", PORT));
+app.listen(port || 3000, () => console.log("Server listening on Port", port));
